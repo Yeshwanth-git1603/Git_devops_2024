@@ -1,0 +1,23 @@
+li=["sairam",12,13.5,"hello",'c']
+#different methods are used for list
+#1.append
+li.append("devops")#append
+print(li)
+li.pop(1)           #pop
+print(li)
+li.insert(1,"devops")#insert
+print(li)
+li.remove("devops")#remove
+print(li)
+li.reverse()      #reverse
+print(li)
+li.copy()         #copy
+print(li) 
+li.index(13.5)    #index
+print(li)
+li.count("devops") #count
+print(li)
+li.clear()         #clear
+print(li)
+li.sort()         #sort
+print(li)
