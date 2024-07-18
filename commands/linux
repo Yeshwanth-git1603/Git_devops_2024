@@ -1,0 +1,37 @@
+Linux:-
+1.to create a file in a Linux : cat> file_name
+ ex:-cat>f1
+     here you can write a next of it.
+2. another way to create a file : touch f1 it is a empty file.
+3.to view the content in a file is : cat file_name
+  ex: cat f1
+4.to see the list of file : ls
+5.remove the file :rm file_name
+    ex: rm f1
+6.how to create a directory :mkdir file_name
+   ex: mkdir Linux
+7.to which path you are currently working : pwd
+8.move to one directory to another directory :cd file_name
+  ex: cd Linux
+9.if you want to go back to the previous directory :cd..
+10.how to remove the directory if consists of empty file:rmdir file_name
+  ex: rmdir Linux
+11.to remove directory even it has the content :rm -r file_name
+  ex:rm -r Linux
+12 to create the hirarical directories:
+  mkdir d1
+  cd d1
+  mkdir d2
+  cd d2
+  mkdir d3
+  cd d3
+  mkdir d4
+  cd d4
+13.to back to the home directory :cd/home/ubantu
+14.more information about a file{long list}: ls -l .
+15.when file starts with . those are hidden files: touch .f7
+   to see those file are: ls -a
+16 copy the information one file to another file: cp <from> <to>
+    ex: cp f1 f100
+17 to exit from the aws connection: exit
+18. to exit from the terminal :exit
